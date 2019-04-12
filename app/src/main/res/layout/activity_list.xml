@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/back3"
+    tools:context="sidikmilati1998gmail.com.list">
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="377dp"
+        android:layout_height="53dp"
+        android:gravity="center"
+        android:text="Daftar Teman Saya"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:textStyle="bold|italic" />
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="wrap_content"
+        android:layout_height="579dp"
+        android:layout_below="@+id/txt1"
+        android:layout_marginBottom="50dp"></ListView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:onClick="btn1"
+        android:layout_below="@+id/list"
+        android:layout_marginTop="-38dp"
+        android:background="@drawable/oval"
+        android:text="keluar"
+        android:textColor="@android:color/white"
+        android:textSize="18dp"
+        android:textStyle="italic|bold" />
+</RelativeLayout>
